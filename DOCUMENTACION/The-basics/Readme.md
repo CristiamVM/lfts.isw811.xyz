@@ -78,7 +78,11 @@ Vamos a crear una ruta dinamica para cada post
 ![Google Chrome]( ./images/resultado8.PNG "Resultado")
 
 
-## 09. How a Route Loads a View
+## 09. Route Wildcard Constraints
+    En este episodio del curso basicamente le agregamos un poco de seguridad a la ruta del wildcart para que solo accepte un grupo que nosotros asignamos atravez de regular expressions
+
+![Visual Studio Code]( ./images/regularexpressionswildcart.PNG "Creacion de la expresion regular")
+
 ## 10. How a Route Loads a View
 ## 11. How a Route Loads a View
 ## 02. Find a Composer Package for Post Metadata
