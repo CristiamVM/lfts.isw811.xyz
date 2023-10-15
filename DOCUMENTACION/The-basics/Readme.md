@@ -29,7 +29,7 @@
 ![Google Chrome]( ./Images/Codigodummy6Resultado.PNG "Resultado de la modificacion")
 
 ### Implementacion CSS
-    vamos a la public y creamos una carpeta que se va a llamar "app.css" y le metemos una modificaciones para la pagina
+    Vamos a la public y creamos una carpeta que se va a llamar "app.css" y le metemos una modificaciones para la pagina
 
 ![Visual Studio Code]( ./images/app.css.png "Modificacion de la pagina default")
 
@@ -42,6 +42,16 @@
 ![Google Chrome]( ./Images/resultadoJS6.PNG "Resultado de la modificacion")
 
 ## 07. Make a Route and Link to it
+    Modificamos el nombre del archivo por defecto para que pase de "Welcome" a "posts" y le agregamos unas pequeñas modificaciones al la pagina que veniamos creando, tambien modificamos el CCS para que sea un texto decente de utilizar
+    
+![Visual Studio Code]( ./images/modificacion%20del%20nombre%20posts.PNG "Modificacion de el nombre de la paginar por defecto")
+![Visual Studio Code]( ./images/modificaciondelposts.PNG "Modificacion de la pagina posts")
+
+    Ahora vamos a crear un nuevo archivo que se va a llamar "post" para la ruta que vamos a crear y la cual la va a redirigir los titulos de los post que creamos en posts
+
+![Visual Studio Code]( ./images/rutapost.PNG "Creacion de la ruta post")
+![Google Chrome]( ./images/paginapost.PNG "Resultado final de post")
+
 ## 08. How a Route Loads a View
 ## 09. How a Route Loads a View
 ## 10. How a Route Loads a View
