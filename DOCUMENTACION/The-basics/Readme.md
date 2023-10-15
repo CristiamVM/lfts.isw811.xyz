@@ -41,6 +41,7 @@
 
 ![Google Chrome]( ./Images/resultadoJS6.PNG "Resultado de la modificacion")
 
+
 ## 07. Make a Route and Link to it
     Modificamos el nombre del archivo por defecto para que pase de "Welcome" a "posts" y le agregamos unas pequeñas modificaciones al la pagina que veniamos creando, tambien modificamos el CCS para que sea un texto decente de utilizar
     
@@ -52,7 +53,31 @@
 ![Visual Studio Code]( ./images/rutapost.PNG "Creacion de la ruta post")
 ![Google Chrome]( ./images/paginapost.PNG "Resultado final de post")
 
-## 08. How a Route Loads a View
+
+## 08. Store Blog Posts as HTML Files
+    Ahora basicamente ocupamos que los post que estamos creando sean dinamicos y no tenga problemas para eso podemos asigarle una variable a post en vez del texto quemado, pero ocupamos configurar la rutas para esto
+
+
+### creacion de la variable en post
+Vamos a crear una ruta dinamica para cada post
+
+![Visual Studio Code]( ./images/variablepost.PNG "Creacion de la variable post")
+
+### configuracion de la ruta dinamica
+    Al crear el codigo necesario para tener acesso de manera dinamica a los archivo tambien vamos a crear un control de errores, com se muestra en el codigo a continuacion
+![Visual Studio Code]( ./images/configuracion%20de%20ruta%20dinamina.PNG "Creacion de la ruta post")
+
+### creacion de los archivos
+    Para estos archivos vamos a crearlos en la carpetas de resources, creamos una carpeta posts y alli metemos  los archivos HTML de los post
+
+![Visual Studio Code]( ./images/HTMLpost.PNG "Creacion de la ruta post")
+
+### Resultado
+    Ahora podemos acceder a cada uno de los archivos post de una manera un poco mas dinamica
+
+![Google Chrome]( ./images/resultado8.PNG "Resultado")
+
+
 ## 09. How a Route Loads a View
 ## 10. How a Route Loads a View
 ## 11. How a Route Loads a View
