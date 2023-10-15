@@ -83,7 +83,29 @@ Vamos a crear una ruta dinamica para cada post
 
 ![Visual Studio Code]( ./images/regularexpressionswildcart.PNG "Creacion de la expresion regular")
 
-## 10. How a Route Loads a View
-## 11. How a Route Loads a View
-## 02. Find a Composer Package for Post Metadata
+
+## 10. Use Caching for Expensive Operations
+    En este episodio nos enceñan a cachear cierta informacion en ese caso en especifico el "$slug" para evitar gastar recursos o recargar informacion innecesariamente, tambien acamodamos un poco el codigo
+
+![Visual Studio Code]( ./images/cachearslug.PNG "Cachear $slug")
+
+
+## 11. Use the Filesystem Class to Read a Directory
+    Ahora vamos a crear una manera en la cual no importa si agregamos mas post siempre sea visible, para esto vamos a necesitar crear una model para los post en el cual seremos podremos cargar los post y obiviamente para que esto funcione abra que hacer modificaciones al php de rutas y al posts.blade.php
+
+### Hacemos un foreach para cargar los post
+
+![Visual Studio Code]( ./images/foreach%20para%20cargar%20todos%20los%20post%20en%20la%20pagina%20principal.PNG "Cargar los posts")
+
+
+### Modificacion de el archivo de rutas "web" para que funcionen nuestras modificaciones
+Aqui vemos 2 rutas una basicamente es la ruta de la pagina principal que carga todos los post y la segunda que esta destina para cargar un post en especifico, el que nosostros especifiquemos clickeando el link
+![Visual Studio Code]( ./images/route11.PNG "Cargar las vistas de los posts")
+
+### Creacion del Modelo Post
+    Aqui creamos las funciones que van a hacer la "logica" para cargar los posts
+
+![Visual Studio Code]( ./images/modelo%20post%20para%20cargar%20ya%20sea%20un%20post%20o%20cargar%20todos.PNG "logica para cargar los posts")
+
+## 12. Find a Composer Package for Post Metadata
 ## 13. Collection Sorting and Caching Refresher
