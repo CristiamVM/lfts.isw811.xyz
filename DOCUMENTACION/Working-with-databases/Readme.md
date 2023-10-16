@@ -47,7 +47,41 @@ Y obiviamente estos usuarios no son exclusivos del php artisan tinker, esto afec
 ![MySQL Workbench]( ./Images/UsuariosWorkbench.PNG "Ver Usuarios creados")
 
 
-## 20. 
+## 20. Make a Post Model and Migration
+    Ahora vamos a crear la tabla y el modelo post para almacenar post
+
+### Creacion de tabla y modelo
+    vamos a crear la tabla y el modelo de post para esto vamos a utilizar el siguente comando
+```
+    php artisan make:migration create_posts_table
+    php artisan make:model Post
+```
+
+### Asignar columnas a la tabla
+Vamos a asignar unas columnas a la tabla que acabamos de crear
+
+![Visual Studio Code]( ./Images/UsuariosWorkbench.PNG "Creacion de columnas")
+
+despues de esto ocupamos migrar estas columnas con el comando
+ ```
+ php artisan migrate
+ ```
+
+### Creacion de datos para Posts
+    De la misma manera en la que creamos los usuarios en el ep. 19 vamos a crear datos para Post, esto lo hacemos 2 veces, simplemente para tener 2 datos de prueba
+
+![Terminal bash]( ./Images/Creacion%20de%20post%20phptinker.PNG "Creacion de Post")
+
+#### Resultado
+
+![Terminal bash]( ./Images/verposttinker.PNG "Ver los post creados")
+
+### Configuracion de codigo para que funcione con base de datos
+    Ahora nuestro programa en vez de funcionar con archivos, funciona con base de datos y por lo mismo hay que hacer unos pequeños cambios que basicamente consisten en cambiar $slug por $id
+
+![Visual Studio Code]( ./Images/cambio%20por%20id%20routes.PNG "Cambio por $id")
+
+![Visual Studio Code]( ./Images/cambio%20por%20id%20post.PNG "Cambio por $id")
 ## 21. 
 ## 22. 
 ## 23. 
