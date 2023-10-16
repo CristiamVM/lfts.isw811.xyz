@@ -1,5 +1,6 @@
 # LFTS - Working With Database
 
+
 ## 17. Environment Files and Database Connections
     este paso es basicamente lo ultimo que hicimos en la ultima clase, configuracion de la basede datos y migracion tablas
 
@@ -15,6 +16,8 @@ Configuramos el espacio que tiene preasignado el .env con los datos de nuestra b
 ###  Migracion de la tablas de artisan
 
 ![Terminal bash]( ./Images/confirmacion%20de%20la%20migracion%20db.PNG "Creacion de tablas")
+
+
 
 ## 18. Migrations: The Absolute Basics
     Nos enseñan conceptos basicos de las migraciones la mayoria de ellos en torno al:
@@ -32,6 +35,7 @@ Configuramos el espacio que tiene preasignado el .env con los datos de nuestra b
 ![Terminal bash]( ./Images/phpartisan%20comandos.PNG "Comandos disponibles con artisan")
 
 
+
 ## 19. Eloquent and the Active Record Pattern
     Utilizando el php artisan tinker creamos y visualizamos usuarios
 
@@ -45,6 +49,7 @@ Configuramos el espacio que tiene preasignado el .env con los datos de nuestra b
 
 Y obiviamente estos usuarios no son exclusivos del php artisan tinker, esto afecta la base de datos y por ende los podemos ver desde nuestro administrador de base de datos
 ![MySQL Workbench]( ./Images/UsuariosWorkbench.PNG "Ver Usuarios creados")
+
 
 
 ## 20. Make a Post Model and Migration
@@ -82,7 +87,23 @@ despues de esto ocupamos migrar estas columnas con el comando
 ![Visual Studio Code]( ./Images/cambio%20por%20id%20routes.PNG "Cambio por $id")
 
 ![Visual Studio Code]( ./Images/cambio%20por%20id%20post.PNG "Cambio por $id")
-## 21. 
+
+
+
+## 21. Eloquent Updates and HTML Escaping
+    En este modulo le damos un poco mas de formato a el HTML y tambien nos muestan los cuidados que hay que tener a la hora de "Escape" cierta informacion, para evitar errores, o problemas de seguridad
+    
+### formato extra para el HTML
+    le agragamos el tag de <p> a el body para que la informacion que se muestra a continiacion no este pegado, en este caso el boton de volver a la pagina principal
+
+![Terminal bash]( ./Images/Cambios%20en%20el%20body%20de%20post.PNG "Cambios en el body de post")
+
+### HTML Escaping info
+    Tambien se nos explica que hay que tener cuidado a la hora de hacer esto porque por ejemplo en el titulo se podria hacer esto, pero al hacer esto podemos causar un problema de seguridad ya que le damos la posibilidad de generar un error, por utilizar el mismo ejemplo meter codigo JS en el titulo, entonces cada vez que se cargue el post ejecutaria el JS, lo cual no es de nuestro interes
+
+![Google Chrome]( ./Images/Escaping%20info%20title.PNG "Error al cargar el post")
+
+
 ## 22. 
 ## 23. 
 ## 24. 
