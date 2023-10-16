@@ -104,6 +104,7 @@ despues de esto ocupamos migrar estas columnas con el comando
 ![Google Chrome]( ./Images/Escaping%20info%20title.PNG "Error al cargar el post")
 
 
+
 ## 22. 3 Ways to Mitigate Mass Assignment Vulnerabilities
     Nos enseñan 3 formas de migrar datos utilizando el php artisan tinker
 
@@ -130,7 +131,47 @@ Y con el siguiente comando lo volvemos a su estado original
 O con un metodo mas directo con el cual podemos actualizar
 
 ![Terminal bash]( ./Images/actulizar%20info%20m2.PNG "Actualizacion de Post")
-## 23. 
+
+
+
+
+## 23. Route Model Binding
+Nos enseñan a utilizar las wildcart de otra mananera y obtener un URL mas completo
+
+### Migracion de la tabla Posts
+    Para esto tenemos que agregarle un parametro a la tabla de posts para esto nos vamos a la carpeta de migracion y lo agregamos
+
+![Visual Studio Code]( ./Images/modificacion%20de%20nuestra%20migracion-23.PNG "")
+
+    Pero para que se guarde hay que aplicar la migracion, pero vamos a crear todo desde 0 con el parametro recien creado
+
+    ```
+    php artisan migration:fresh
+    ```
+![Visual Studio Code]( ./Images/migracion-fresh-23.PNG "Migracion de las tablas")
+
+#### Resultado
+
+![Workbench]( ./Images/Resultado%20de%20la%20migracion.PNG "Ver columnas creadas")
+
+Y despues simplemente en nuestro archivo de rutas modificamos la funcion
+
+![Visual Studio Code]( ./Images/routesconslug.PNG "modificacion de routes")
+
+Tambien esta la posibilidad de hacerlo de la siguiente manera
+
+#### archivo de rutas
+
+![Visual Studio Code]( ./Images/routesconslugm2.PNG "Modificacion de")
+
+#### Modelo Post
+
+![Visual Studio Code]( ./Images/Postconslugm2.PNG "Modificacion de Modelo Post")
+
+#### Resultado de ULR
+![Visual Studio Code]( ./Images/URLconslug-23.PNG "Resultado de la pagina con Slug")
+
+
 ## 24. 
 ## 25. 
 ## 26. 
