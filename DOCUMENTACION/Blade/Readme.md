@@ -1,7 +1,12 @@
-# Laravel from the Scratch
+# LFTS - Blade
 
-## Index
+## 14. Blade: The Absolute Basics
 
 
-- [05. How a Route Loads a View](./the-basics/how-a-route-loads-a-view.md)
 
+
+## 15. Include CSS and JavaScript
+
+## 16. Include CSS and JavaScript
+
+![Google Chrome]( ./Images/ "Resultado de la modificacion") 

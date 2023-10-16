@@ -136,6 +136,18 @@ ahora con esto instalado tenemos lo ultimo que ocupamos para hacer el programa 1
 
 
 ## 13. Collection Sorting and Caching Refresher
+    Ahora acomodamos por fecha los posts que tenemos y tambien cachemos el los posts para siempre y lo revisamos con el artisan tinker
 
+![Visual Studio Code]( ./images/sorting13.PNG "acomodamos los posts")
+
+### Artisan thinker
+    En la maquina virtual abrimos el artisan thiker y reviamos la informacion cacheada
+
+    ```
+    cd /sites/lfts.isw811.xyz
+    php artisan thinker
+    cache()->get(posts.all);
+    ```
+![Terminal bash]( ./images/cacheartisan.PNG "Informacion cacheada")
 
 
