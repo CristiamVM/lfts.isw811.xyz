@@ -104,7 +104,32 @@ despues de esto ocupamos migrar estas columnas con el comando
 ![Google Chrome]( ./Images/Escaping%20info%20title.PNG "Error al cargar el post")
 
 
-## 22. 
+## 22. 3 Ways to Mitigate Mass Assignment Vulnerabilities
+    Nos enseñan 3 formas de migrar datos utilizando el php artisan tinker
+
+Una de estas formas ya la conociamos, es como habiamos estado introduciendo datos hasta ahora
+
+![Terminal bash]( ./Images/Creacion%20de%20post%20phptinker.PNG "Creacion de Post")
+
+Otra formas es metiendo todo en una misma linea
+
+![Terminal bash]( ./Images/Creacion%20de%20post%20phptinker.PNG "Creacion de Post")
+
+Pero para esto es importante modificar nuesto modelo de Post
+
+![Visual Studio Code]( ./Images/Post-22.PNG "Modificacion de Post")
+
+Tambien podemos actualizar informacion
+
+![Terminal bash]( ./Images/actulizar%20info%20m1.PNG "Actualizacion de Post")
+
+Y con el siguiente comando lo volvemos a su estado original 
+
+![Terminal bash]( ./Images/tinker%20fresh.PNG "volver al estado anterior")
+
+O con un metodo mas directo con el cual podemos actualizar
+
+![Terminal bash]( ./Images/actulizar%20info%20m2.PNG "Actualizacion de Post")
 ## 23. 
 ## 24. 
 ## 25. 
