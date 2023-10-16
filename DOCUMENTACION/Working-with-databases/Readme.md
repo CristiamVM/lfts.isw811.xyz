@@ -30,7 +30,23 @@ Configuramos el espacio que tiene preasignado el .env con los datos de nuestra b
     php artisan migrate:rollback
     ´´´
 ![Terminal bash]( ./Images/phpartisan%20comandos.PNG "Comandos disponibles con artisan")
-## 19. 
+
+
+## 19. Eloquent and the Active Record Pattern
+    Utilizando el php artisan tinker creamos y visualizamos usuarios
+
+### Creacion de usuario
+   Utilizando tinker es posible crear usuarios en la base de datos
+![Terminal bash]( ./Images/Creacion%20de%20usuario%20phptinker.PNG "Creacion de usuario")
+
+### Visualizar usuarios
+    Tambien es posible ver los usuarios que hemos creado
+![Terminal bash]( ./Images/Usuarios%20phptinker.PNG "Ver Usuarios creados")
+
+Y obiviamente estos usuarios no son exclusivos del php artisan tinker, esto afecta la base de datos y por ende los podemos ver desde nuestro administrador de base de datos
+![MySQL Workbench]( ./Images/UsuariosWorkbench.PNG "Ver Usuarios creados")
+
+
 ## 20. 
 ## 21. 
 ## 22. 
