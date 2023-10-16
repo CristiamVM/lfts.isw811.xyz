@@ -1,7 +1,32 @@
-# Laravel from the Scratch
+# LFTS - Working With Database
 
-## Index
+## 17. Environment Files and Database Connections
+    este paso es basicamente lo ultimo que hicimos en la ultima clase, configuracion de la basede datos y migracion tablas
 
+### Configuracion de .env 
+Configuramos el espacio que tiene preasignado el .env con los datos de nuestra base de datos
 
-- [05. How a Route Loads a View](./the-basics/how-a-route-loads-a-view.md)
+![Terminal bash]( ./Images/configuracion%20de%20la%20conexion%20a%20la%20base%20de%20datos.PNG "Configuramos el espacio que tiene preasignado el .env con los datos de nuestra base de datos")
 
+### creamos el esquema la base de datos
+
+![Terminal bash]( ./Images/confirmacion%20de%20creacion%20de%20tabla%20en%20base%20de%20datos.PNG "Confirmacion de la creacion de la base de datos lfts")
+
+###  Migracion de la tablas de artisan
+
+![Terminal bash]( ./Images/confirmacion%20de%20la%20migracion%20db.PNG "Creacion de tablas")
+
+## 18. 
+## 19. 
+## 20. 
+## 21. 
+## 22. 
+## 23. 
+## 24. 
+## 25. 
+## 26. 
+## 27. 
+## 28. 
+## 29. 
+## 30. 
+ 

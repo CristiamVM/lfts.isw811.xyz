@@ -15,12 +15,19 @@
 
 ### Creacion de layouts
     Aqui creamos una carpeta para componentes y adentro creamos el layout.blade.php
-    
+
 ![Visual Studio Code]( ./Images/layouts.PNG "Creacion del layout")
 
 ![Visual Studio Code]( ./Images/posts-15.PNG "Modificacion de posts utilizandoo blade")
 
 ![Visual Studio Code]( ./Images/post-15.PNG "Modificacion de post utilizandoo blade")
 
-## 16. Include CSS and JavaScript
+## 16. A Few Tweaks and Consideration
+    Aqui basicamente hacemos control de errores 
 
+
+![Visual Studio Code]( ./Images/ModeloP-16.PNG "Modificacion de posts utilizandoo blade")
+
+    Y como cambiamos las funciones de Post en nuestro archivo de rutas tambien hay unos ligeros cambios
+
+![Visual Studio Code]( ./Images/routes-16.PNG "Modificacion de posts utilizandoo blade")
