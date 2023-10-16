@@ -108,4 +108,34 @@ Aqui vemos 2 rutas una basicamente es la ruta de la pagina principal que carga t
 ![Visual Studio Code]( ./images/modelo%20post%20para%20cargar%20ya%20sea%20un%20post%20o%20cargar%20todos.PNG "logica para cargar los posts")
 
 ## 12. Find a Composer Package for Post Metadata
+ para este episodio ocupamos instalar una nueva depencencia con composer para esto tenemos que ir a la maquina virtual y ejecutar el siguiente codigo
+
+ ```
+cd sites/lfts.isw811.xyz
+composer require spatie/yaml-front-matter
+ ```
+
+ahora con esto instalado tenemos lo ultimo que ocupamos para hacer el programa 100% dinamico
+
+### Modelo Post
+    En el modelo tenemos que hacer un constructor y rehacer el codigo de las funciones para coger todos los post y la funcion que se utiliza para cargar uno en especifico, en este caso nos podemos aprovechar de la funcion de cargar todos los post para cargar uno en especifico utilizando el slug que metimos en la metadata de cada post
+
+![Visual Studio Code]( ./images/Post12.PNG "Modelo de Post")
+
+### Routes web
+
+![Visual Studio Code]( ./images/route12.PNG "Web routes")
+
+### Post.blade.php
+
+![Visual Studio Code]( ./images/post-12.PNG "Post.blade.php")
+
+### Posts.blade.php
+
+![Visual Studio Code]( ./images/posts12.PNG "Posts.blade.php")
+
+
 ## 13. Collection Sorting and Caching Refresher
+
+
+
