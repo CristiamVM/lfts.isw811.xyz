@@ -16,7 +16,20 @@ Configuramos el espacio que tiene preasignado el .env con los datos de nuestra b
 
 ![Terminal bash]( ./Images/confirmacion%20de%20la%20migracion%20db.PNG "Creacion de tablas")
 
-## 18. 
+## 18. Migrations: The Absolute Basics
+    Nos enseñan conceptos basicos de las migraciones la mayoria de ellos en torno al:
+
+    ´´´
+    php artisan migrate:fresh
+    ´´´
+    Esto basicamente no importa los cambias que podamos hacer ya sea en el archivo de complilacion de laravel o desde el administrador de base de datos siempre restablece todo a la migracion oiginal
+    Tambien nos muestra un pequeño detalle pero que me parecio muy conveniente que es que basicamente si nos encontramos en el ambiente de produccion antes de correr este codigo nos muestra una alerta, avisandonos que estamos en el entorno de produccion.
+    tambien nos enseña cosas como
+
+    ´´´
+    php artisan migrate:rollback
+    ´´´
+![Terminal bash]( ./Images/phpartisan%20comandos.PNG "Comandos disponibles con artisan")
 ## 19. 
 ## 20. 
 ## 21. 
