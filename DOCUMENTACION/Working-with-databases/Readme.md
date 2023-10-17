@@ -172,7 +172,56 @@ Tambien esta la posibilidad de hacerlo de la siguiente manera
 ![Visual Studio Code]( ./Images/URLconslug-23.PNG "Resultado de la pagina con Slug")
 
 
-## 24. 
+
+## 24. Your First Eloquent Relationship
+    Asiganamos una categoria a cada post
+
+### Creacion de las categorias
+    Para crear las categorias primero tenemos que crear la tabla y Modelo de categorias, para esto utilizamos el artisan
+
+![Terminal Bash]( ./Images/creacion%20Modelo%20y%20tabla%20category.PNG "Creacion de modelo y tabla categories")
+
+#### Ahora creamos las categorias
+  
+![Visual Studio Code]( ./Images/creacion%20de%20categorias.PNG "Creacion de categorias")
+
+#### Utilizando nuestro administrador de base de datos ahora podemos ver la relacion que estableciomos, obiviamente a la hora de crear los post nuevos hay que agregar una nueva columna que va a hacer una llave foranea que va a ser nuestra manera de establecer la conexion entra las tablas 
+
+![Workbench 8]( ./Images/Prueba%20de%20categoria%2024.PNG "Prueba de relaciones")
+
+
+### Creacion de funcion relacional
+    Si probamos en el tinker la relacion
+
+    ```
+    $post->category 
+    ```
+
+    nuestra null, para arreglar esto vamos a ir a el Modelo Post 
+
+![Visual Studio Code]( ./Images/funcionCategoryPost.PNG "Modificacion de Modelo Post")
+
+### Testeo de Relaciones
+    Con el php artisan tinker probamos nuestras relaciones
+
+![Terminal Bash]( ./Images/ResultadophpArtisan%2024.PNG "Prueba de relaciones con el php artisan tinker")
+
+### Modificacion de las paginas
+    Modificamos la pagina principal como la pagina de cada post para que se muestre la categoria
+
+![Visual Studio Code]( ./Images/posts-24.PNG "Modificacion de archivo posts")
+
+![Visual Studio Code]( ./Images/post-24.PNG "Modificacion de archivo post")
+
+
+#### Resultado final
+
+![Google Chrome]( ./Images/pageposts%20con%20categoria.PNG "Resultado final")
+
+![Google Chrome]( ./Images/pagepost%20con%20categoria.PNG "Resultado final")
+
+
+
 ## 25. 
 ## 26. 
 ## 27. 

@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Models;
-
+use App\Models\Category;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
@@ -12,8 +12,9 @@ class Post extends Model
     protected $guarded = [];
     // protected $fillable = ['title', 'excerpt', 'body', 'id'];
 
-    public function getRouteKeyName()
+    public function category()
     {
-        return 'slug';
+
+        return $this->belongsTo(Category::class);
     }
 }
