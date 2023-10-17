@@ -268,13 +268,39 @@ Tambien esta la posibilidad de hacerlo de la siguiente manera
 
 
 
+## 27. Database Seeding Saves Time
+    Nos enceñar a crear un seeder para no tener que estar creando datos de prueba cada vez que hacemos una migracion
+
+### Modificacion de tabla posts
+    Ocupamos agregarle una llave foranea a posts para que tenga una relacion con el usuario que se creo 
+
+![Visual Studio Code]( ./Images/forranea%20para%20usuarios%2027.PNG "add llave foranea")
+    
+
+### Creacion del seeder
+    Utilizamos el archivo seeder que esta por defecto en la carpeta de base de datos, aqui le vamos a meter todos los datos que queremos que el seeder cree
+
+![Visual Studio Code]( ./Images/creacion%20del%20seeder%2027.PNG "Creacion de los datos en el seeder")
+
+#### Ahora cada vez que migramos la base de datos le podemos agregar "--seed" para que ademas de remigrar las tablas ejecute el seeder y cree los datos por defecto
+
+```
+php artisan migrate::fresh --seed
+```
+
+### Modificacion de modelos
+
+![Visual Studio Code]( ./Images/ModeloUser%2027.PNG "Modificacion de modelo")
+
+![Visual Studio Code]( ./Images/ModeloPost%2027.PNG "Modificacion de modelo")
+
+### Modificacion de vistas
+
+![Visual Studio Code]( ./Images/post%2027.PNG "modificamos la vista")
+
+![Visual Studio Code]( ./Images/posts%2027.PNG "modificamos la vista")
 
 
-
-
-
-
-## 27. 
 ## 28. 
 ## 29. 
 ## 30. 
