@@ -301,7 +301,31 @@ php artisan migrate::fresh --seed
 ![Visual Studio Code]( ./Images/posts%2027.PNG "modificamos la vista")
 
 
-## 28. 
+
+## 28. Turbo Boost With Factories
+    Creacion de datos aleatorios
+
+### Creacion de factories
+Utilizando el artizan creamos los arvhivos de factory
+
+![Terminal Bash]( ./Images/creacion%20de%20factorys%2028.PNG "Creacion de los archivos Factory")
+
+
+### Asignacion de datos a los factories
+
+![Visual Studio Code]( ./Images/factoryPost%2028.PNG "Agregamos los datos que queremos crear")
+
+![Visual Studio Code]( ./Images/factoryCategory%2028.PNG "Agregamos los datos que queremos crear")
+
+### Modificacion del Seeder
+    Ahora los datos del seeder se pueden fabricar de manera aleatoria y cuantos nosotros queramos, en este caso vamos a crear 5 posts, que todos provengan del mismo usuario
+
+![Visual Studio Code]( ./Images/seeder%2028.PNG "modificamos la vista")
+
+#### Resultado
+
+![Google Chrome]( ./Images/seeder%2028.PNG "Resultado")
+
 ## 29. 
 ## 30. 
  
