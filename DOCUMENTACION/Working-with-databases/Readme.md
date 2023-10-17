@@ -346,5 +346,12 @@ Utilizando el artizan creamos los arvhivos de factory
 
 ![Google Chrome]( ./Images/Resultado%2029.PNG "Resultado")
 
-## 30. 
+
+
+## 30. Eager Load Relationships on an Existing Model
+ Basicamente nos explican que al cargar los posts por categorias y por autor incurrimos en un pequeño sobre cargo de querys, que en un programa mas grande puede ser un problema, para esto vamos a incluir en cada post los datos de la categoria y del autor y de esta manera pasamos de 24 querys a solo 4
+
+ ![Visual Studio Code]( ./Images/Post%2030.PNG "modificamos del Modelo Post")
+
+
  
