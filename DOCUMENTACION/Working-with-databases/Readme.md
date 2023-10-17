@@ -222,7 +222,30 @@ Tambien esta la posibilidad de hacerlo de la siguiente manera
 
 
 
-## 25. 
+## 25. Show All Posts Associated With a Category
+    Ahora vamos a crear el la ruta para acceder a los post por categoria
+
+### Creacion de ruta
+    Primero en nuestro archivo de rutas vamos a crear el "path" hacia lo que ocupamos
+
+![Visual Studio Code]( ./Images/nueva%20ruta%20para%20las%20categorias.PNG "Creacion de ruta para categorias")
+
+### Creacion de funcion para cargar los post
+    Ahora vamos a la funcion para que se cargen todos los post que pertenecen a una categoria
+
+![Visual Studio Code]( ./Images/funcion%20para%20cargar%20todos%20los%20post%20de%20una%20categoria.PNG "Creacion de funcion para cargar post")
+
+### Y Como ultimo le asignamos la ruta en la vista
+    Le asignamos la ruta en la vista para que sea cargue la pagina que buscamoss
+
+![Visual Studio Code]( ./Images/posts-25.PNG "Modificacion de php")
+
+![Visual Studio Code]( ./Images/post-25.PNG "Modificacion de php")
+
+### Resultado
+
+![Google Chrome]( ./Images/Resultado%2025.PNG "Resultado")
+
 ## 26. 
 ## 27. 
 ## 28. 
