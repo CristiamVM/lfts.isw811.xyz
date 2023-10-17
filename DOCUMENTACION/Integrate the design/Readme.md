@@ -39,6 +39,45 @@
 
 
 
-## 34. 
-## 35. 
-## 36. 
+## 34. A Small JavaScript Dropdown Detour
+    Ahora vamos a hacer el dropdowm menu funcionar para que sirva como filtro de Categorias
+
+![Visual Studio Code](./images/post-header%2034.PNG "Modificacion de vista")
+
+#### es importante recordar Cargar el Script de JS
+
+![Visual Studio Code](./images/post-header%2034.PNG "Modificacion de vista")
+
+![Visual Studio Code](./images/routes%2034.PNG "Modificacion de vista")
+
+
+
+## 35. How to Extract a Dropdown Blade Component
+    Ahora el codigo JS que creamos en el anterior episodio lo vamos a convertir a un formato valido para Blade, de esta manera nuestro codigo quedara mucho mas limpio e incluso facil de entender
+
+![Visual Studio Code](./images/drop-item%2035.PNG "Creacion de vista")
+
+![Visual Studio Code](./images/dropdown%2035.PNG "Creacion de vista")
+
+![Visual Studio Code](./images/icon%2035.PNG "Creacion de vista")
+
+![Visual Studio Code](./images/post-header%2035.PNG "Modificacion de vista")
+
+![Visual Studio Code](./images/routes%2035.PNG "Modificacion de vista")
+
+## 36. Quick Tweaks and Clean-Up
+ En este episodio hacemos un poco de limpieza y modificamos unas partes del codigo para que se vea mejor
+
+
+![Visual Studio Code](./images/post%2036.PNG "Modificacion de vista")
+
+![Visual Studio Code](./images/post-header%2036.PNG "Modificacion de vista")
+
+![Visual Studio Code](./images/Post-factory%2036.PNG "Modificacion de vista")
+
+![Visual Studio Code](./images/post-featured%2036.PNG "Modificacion de vista")
+
+
+#### Hasta el momento al menos la pagina principal deberia estar algo asi
+
+![Visual Studio Code](./images/Resultado%2036.PNG "Modificacion de vista")
