@@ -324,8 +324,27 @@ Utilizando el artizan creamos los arvhivos de factory
 
 #### Resultado
 
-![Google Chrome]( ./Images/seeder%2028.PNG "Resultado")
+![Google Chrome]( ./Images/Resultado%2028.PNG "Resultado")
 
-## 29. 
+
+
+## 29. View All Posts By An Author
+    Vamos a crear la rutas para poder acceder a todos los post de un mismo autor
+
+### Creacion de la ruta
+
+![Visual Studio Code]( ./Images/route%2029.PNG "modificamos la vista")
+
+
+### Modificacion de vistas
+
+![Visual Studio Code]( ./Images/post-29.PNG "modificamos la vista")
+
+![Visual Studio Code]( ./Images/posts-29.PNG "modificamos la vista")
+
+#### Resultado
+
+![Google Chrome]( ./Images/Resultado%2029.PNG "Resultado")
+
 ## 30. 
  
