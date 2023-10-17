@@ -246,7 +246,34 @@ Tambien esta la posibilidad de hacerlo de la siguiente manera
 
 ![Google Chrome]( ./Images/Resultado%2025.PNG "Resultado")
 
-## 26. 
+
+
+## 26. Clockwork, and the N+1 Problem
+    Basicamente nos explican que hay un problema con las solicitudes, y que que estan ejecutando varias querys de manera inecesarria
+
+### Instalar clockwork
+    Instalamos clockwork junto con su extencion para ver los querys solicitados
+
+![Terminal Bash]( ./Images/install%20clockwork.PNG "Instalamos clockwork usando composer")
+
+### Solucion
+    Hacemos una pequeña modificacion en el archivo de rutas
+
+![Visual Studio Code]( ./Images/modificacion%20de%20route%2026.PNG "Modificacion del archivo de rutas")
+
+### Resultado
+    Pasamos de tener 4 querys para cargar la vista a solo tener 2
+
+![Visual Studio Code]( ./Images/Resultado%2026.PNG "Resultado")
+
+
+
+
+
+
+
+
+
 ## 27. 
 ## 28. 
 ## 29. 
