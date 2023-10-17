@@ -14,9 +14,15 @@
 
 
 ## 32. Blade Components and CSS Grids
+ Le seguimos dando forma a nuestros pagina web y le agregamos los componentes dinamicos
 
+![Visual Studio Code](./images/posts%2032.PNG "Modificacion de vista")
 
+![Visual Studio Code](./images/post-featured%2032.PNG "Modificacion de vista")
 
+![Visual Studio Code](./images/post-card%2032.PNG.PNG "Modificacion de vista")
+
+![Visual Studio Code](./images/post-grid%2032.PNG "Creacion de vista")
 
 
 
