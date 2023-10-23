@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Models;
+
 use App\Models\Category;
 use App\Models\User;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
@@ -10,9 +11,18 @@ class Post extends Model
 {
     use HasFactory;
 
-    protected $guarded = [];
+    // protected $guarded = [];
 
     protected $whith = ['category', 'author'];
+
+    public function scopeFilter($query, array $filters)
+    {
+        $query->when($filters['search'] ?? false, function ($query, $search) {
+            $query->where('title', 'like', '%' . $search . '%')
+                ->orWhere('excerpt', 'like', '%' . $search . '%')
+                ->orWhere('body', 'like', '%' . $search . '%');
+        });
+    }
 
     public function category()
     {
