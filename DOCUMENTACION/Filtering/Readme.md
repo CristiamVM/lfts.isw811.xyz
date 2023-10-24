@@ -67,5 +67,11 @@ post.blade.php → show.blade.php
 
 
 
-## 42.
+## 42.Merge Category and Search Queries
+    Lo que hacemos es modificar ligerament el codigo para que nos permita hacer filtros por categorias y texto utilizando el textbox de "search
+
+![Visual Studio Code](./images/header%2042.PNG "Modificacion de la vista del header")
+
+![Visual Studio Code](./images/categorydropdown.blade%2042.PNG "Modificacion del componente del dropdown de categorias")
+
 ## 43.
