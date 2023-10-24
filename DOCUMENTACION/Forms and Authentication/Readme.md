@@ -68,6 +68,23 @@
 
 
 ## 51. Laravel Breeze Quick Peek
+    Para este capitulo hay crear un nuevo proyecto y para conveniencia personal voy a utilizar uno de los sitios que creamos al princio del curso para evitar crear otro vhost y demas pasos
+
+![Visual Studio Code](./images/session-control%2051.PNG "Modificacion del controlador de sesiones")
 
 
+### proyecto nuevo
+para esto vamos a usar el host virtual que habiamos creados en la primera clase llamado "crisitiam.isw811.xyz" y le vamos a meter laravel
 
+![Google Chrome](./images/defaultlaravel%2051.PNG "Prueba de instalacion de laravel")
+
+#### ahora vamos con laravel breeze
+
+```
+    composer require laravel/breeze --dev
+    php artisan breeze:install
+    npm install
+    npm run dev
+```
+
+![Google Chrome](./images/laravel%20breeze%2051.PNG "Prueba de instalacion de laravel")
