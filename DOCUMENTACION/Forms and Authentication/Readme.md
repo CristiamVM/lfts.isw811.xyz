@@ -3,7 +3,7 @@
 ## 45. Build a Register User Page
     Como indica el titulo vamo a crear un registro para usuarios y que estos se guarden en la base de datos
 
-![Visual Studio Code](./images/route%2045.PNGG "Modificacion de Usuarios")
+![Visual Studio Code](./images/route%2045.PNG "Modificacion de Usuarios")
 
 ![Visual Studio Code](./images/create%2045.PNG "Creacion de vista para el form de registro de usaurios")
 
@@ -41,6 +41,19 @@
 ![Visual Studio Code](./images/layout%2048.PNG "Modificacion del layout principal para que se muestre el mensaje flash")
 
 
-## 49.
-## 50.
-## 51.
+## 49.Login and Logout
+    En este episodio creamos la logica para logear y desloguear de nuestra pagina
+
+![Visual Studio Code](./images/route%2049.PNG "Modificacion del archivo de rutas `para crear las rutas de registro y cerrar session")
+
+![Visual Studio Code](./images/layout%2049.PNG "Modificacion del layout principal para que se muestre el nombre del usuario que logueo y el boton para cerrar session")
+
+![Visual Studio Code](./images/session-control%2049.PNG "Creacion del controlador de sessiones")
+
+![Visual Studio Code](./images/register-control%2049.PNG "Modificacion del controlador de registros")
+
+
+
+
+## 50. Build the Log In Page
+## 51. Laravel Breeze Quick Peek
