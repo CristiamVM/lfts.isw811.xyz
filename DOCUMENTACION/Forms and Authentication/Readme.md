@@ -56,4 +56,18 @@
 
 
 ## 50. Build the Log In Page
+    En este episodio vamos a crear todo lo que nos falta para iniciar sesion, esto obviamente seria una vista para el login y la validacion de credenciales 
+
+![Visual Studio Code](./images/route%2050.PNGodificacion del controlador de registros")
+
+![Visual Studio Code](./images/create-sesion%2050.PNG "Creacion de la pagina de login")
+
+![Visual Studio Code](./images/session-control%2050.PNG "Modificacion del controlador de sesiones")
+
+![Visual Studio Code](./images/route%2050.PNG "Modificacion del archivo de rutas")
+
+
 ## 51. Laravel Breeze Quick Peek
+
+
+
