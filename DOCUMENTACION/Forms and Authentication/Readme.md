@@ -13,7 +13,7 @@
 
 
 
-## 46.Automatic Password Hashing With Mutators
+## 46. Automatic Password Hashing With Mutators
     En este episodio nos enseñan a crear contraseñas encriptadas de forma automatica
 
 ![Visual Studio Code](./images/user-model%2046.PNG "Otra forma de hacer la encriptacions desde el Controlador para los usuarios") 
@@ -25,7 +25,14 @@
 
 
 
-## 47.
+## 47. Failed Validation and Old Input Data
+    En este episodio haces un poco de control de errores y validaciones
+
+![Visual Studio Code](./images/create%2047.PNG "Modificacion del formulario de registro para que muestre los errores") 
+
+![Visual Studio Code](./images/register-control%2047.PNG "Modificacion del controlador del registro para agregar validaciones")
+
+
 ## 48.
 ## 46.
 ## 49.
