@@ -22,18 +22,18 @@
 
 ![Visual Studio Code](./images/PostController%2040.PNG "Modificacion del controlador de post")
 
-![Visual Studio Code](./images/categorydropdown%2040.PNG "Modificacion del controlador de post")
+![Visual Studio Code](./images/categorydropdown%2040.PNG "Creacion de controlador para el dropdown de category")
 
-![Visual Studio Code](./images/categorydropdown.blade%2040.PNG "Modificacion del controlador de post")
-
-
-![Visual Studio Code](./images/routes%2040.PNG "Modificacion del controlador de post")
+![Visual Studio Code](./images/categorydropdown.blade%2040.PNG "Creacion de del arvhivo con formato blade para el dropdown de")
 
 
-![Visual Studio Code](./images/index%2040.PNG "Modificacion del controlador de post")
+![Visual Studio Code](./images/routes%2040.PNG "Modificacion del archivo de rutas")
 
 
-![Visual Studio Code](./images/header%2040.PNG "Modificacion del controlador de post")
+![Visual Studio Code](./images/index%2040.PNG "Ajuste de dependencias para que concuerde con los cambios de nombre")
+
+
+![Visual Studio Code](./images/header%2040.PNG "Cambio a formato blade")
 
 
 #### Tambien le cambiamos el nombre a los ciertos archivos por mero orden y los metemos en una carpeta que vamos a llamar posts
@@ -47,6 +47,25 @@ post.blade.php → show.blade.php
 
 
 
-## 41.
+## 41. Author Filtering
+ En este episodio como indica el titulo vamos a hacer la filtracion por autor, asi cada vez que clickeamos en el nombre de un autor vamos a ser capaces de ver todos los posts que tiene ese autor
+
+![Visual Studio Code](./images/PostController%2041.PNG "Modificacion del controlador de post")
+
+![Visual Studio Code](./images/post-model%2041.PNG "Modificacion del Modelo de post")
+
+![Visual Studio Code](./images/post-card%2041.PNG "Modificacion de la vista post-card")
+
+![Visual Studio Code](./images/post-featured%2041.PNG "Modificacion de la vista post-card")
+
+![Visual Studio Code](./images/show%2041.PNG "Modificacion de la vista post especificos")
+
+
+#### Con los cambios que hemos venido haciendo, ya no es necesario usar las rutas para los filtros que hemos venido modificando(categoria, autor) ahora todos lo hacemos desde el controlador y el modelo de los post utilizando querys
+
+![Visual Studio Code](./images/routes%2041.PNG "Modificacion del controlador de post")
+
+
+
 ## 42.
 ## 43.
