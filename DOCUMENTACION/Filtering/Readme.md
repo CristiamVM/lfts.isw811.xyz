@@ -74,4 +74,9 @@ post.blade.php → show.blade.php
 
 ![Visual Studio Code](./images/categorydropdown.blade%2042.PNG "Modificacion del componente del dropdown de categorias")
 
-## 43.
+
+
+## 43. Fix a Confusing Eloquent Query Bug
+Arreglamos un bug que no habiamos notado en el anterior episodio, este error lo que causaba era que tragieramos trabajos no correspondiente a la categoria que buscamos
+
+![Visual Studio Code](./images/post-model%2043.PNG "Modificacion del modelo de post")
