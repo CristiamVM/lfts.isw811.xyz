@@ -75,3 +75,11 @@ php artisan make:model -cfm
 
 
 ## 57. Some Light Chapter Clean Up
+    En este episodio hacemos unos pequeños ajuste para que se vea mejor y sea un poco mas amigable con el usuario
+
+
+![Visual Studio Code](./images/submit-button%2057.PNG "Creacion de una vista para el boton de submit")
+
+![Visual Studio Code](./images/add-comment%2057.PNG "Creacion de vista aparte para crear un commentario(form))")
+
+![Visual Studio Code](./images/show%2057.PNG "Modificacion del la vista de los post para modficar la forma en la que se añaden los comentarios")
