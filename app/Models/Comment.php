@@ -21,5 +21,6 @@ class Comment extends Model
     {
         //hasOne, hasMany, belongsTo, belongsToMany
         return $this->belongsTo(User::class, 'user_id');
+        
     }
 }
