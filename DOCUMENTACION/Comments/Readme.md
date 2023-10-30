@@ -3,7 +3,7 @@
 ## 52. Write the Markup for a Post Comment
     Creamos la vista para los commentarios, de la misma manera de la que lo hemos venido haciendo, utilizando blade
 
-![Visual Studio Code](./images/comments%2052.PNGG "Creacion de la vista para commentarios")
+![Visual Studio Code](./images/comments%2052.PNG "Creacion de la vista para commentarios")
 
 ![Visual Studio Code](./images/show%2052.PNG "Modificacion de la vista de de los post para que muestre la seccion de de los comentarios")
 
@@ -30,7 +30,7 @@ php artisan make:model -cfm
 
 
 ## 54. Make the Comments Section Dynamic
-    como el titulo indica en este episodio hacemos los titulos para que funcionen de manera dinamica
+    Como el titulo indica en este episodio hacemos los titulos para que funcionen de manera dinamica
 
 ![Visual Studio Code](./images/comment-factory%20%2054.PNG "agregamos datos al factory de comentarios")
 
@@ -44,6 +44,34 @@ php artisan make:model -cfm
 
 ![Visual Studio Code](./images/show%2054.PNG "Modificacion de la vista de los post para mostrar los comentarios en los post")
 
-## 55. 
-## 56. 
-## 57. 
+
+
+## 55. Design the Comment Form
+    Creamos un formulario para que los usuarios puedan crear los commentarios
+
+![Visual Studio Code](./images/comment%2055.PNG "Modificacion de la vista de commentarios para que se puedan agregar")
+
+![Visual Studio Code](./images/show%2055.PNG "Modificacion de la vista de los post")
+
+![Visual Studio Code](./images/panel%2055.PNG "Creacion de la vista panel")
+
+
+
+## 56. Activate the Comment Form
+    Ahora que tenemos creado el formulario vamos a activarlo y convertirlo de algo dummy a algo realmente funcional
+
+![Visual Studio Code](./images/web%2056.PNG "Modificacion del archivo de rutas")
+
+![Visual Studio Code](./images/show%2056.PNG "Modificacion de la vista de los post en el area de comentarios")
+
+![Visual Studio Code](./images/comment%2056.PNG "Modificacion de la vista de comentarios")
+
+![Visual Studio Code](./images/provider%2056.PNG "Modificacion del Serviceprovider(modificacion que no voy a usar)")
+
+![Visual Studio Code](./images/comment-model%20%2056.PNG "Modificacion del modelo de commentarios")
+
+![Visual Studio Code](./images/comment-controller%20%2056.PNG "Modificacion del controlador de commentarios")
+
+
+
+## 57. Some Light Chapter Clean Up
