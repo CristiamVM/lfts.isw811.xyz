@@ -29,7 +29,21 @@ php artisan make:model -cfm
 
 
 
-## 54. 
+## 54. Make the Comments Section Dynamic
+    como el titulo indica en este episodio hacemos los titulos para que funcionen de manera dinamica
+
+![Visual Studio Code](./images/comment-factory%20%2054.PNG "agregamos datos al factory de comentarios")
+
+![Visual Studio Code](./images/comment-model%20%2054.PNG "agregamos las funciones que ocupa el modelo de commentarios paara que se establecer las relaciones")
+
+![Visual Studio Code](./images/post-model%2054.PNG "Agregamos la funcion para que basicamente indicar que unpost puede tener varios comentarios")
+
+![Visual Studio Code](./images/seeder%2054.PNG "Modificamos el seeder para que creer  10 comentarios y en este caso para que todos pertenecan a un usuario en especifico ")
+
+![Visual Studio Code](./images/comment%2054.PNG "Modificacion de la vista de los comentarios")
+
+![Visual Studio Code](./images/show%2054.PNG "Modificacion de la vista de los post para mostrar los comentarios en los post")
+
 ## 55. 
 ## 56. 
 ## 57. 

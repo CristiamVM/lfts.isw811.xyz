@@ -1,0 +1,22 @@
+Nothing to migrate.
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'omnis' for key 'categories_name_unique' (SQL: insert into `categories` (`name`, `slug`, `updated_at`, `created_at`) values (omnis, qui-corporis-sunt-similique-accusamus-enim-sit-amet, 2023-10-30 21:16:07, 2023-10-30 21:16:07))
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+  1   [internal]:0
+      Illuminate\Database\Eloquent\Factories\Factory::Illuminate\Database\Eloquent\Factories\{closure}()
+
+  2   [internal]:0
+      Illuminate\Database\Eloquent\Factories\Factory::Illuminate\Database\Eloquent\Factories\{closure}()
