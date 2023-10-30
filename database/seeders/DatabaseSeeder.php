@@ -19,6 +19,7 @@ class DatabaseSeeder extends Seeder
             'name' => 'Tommy Shelby',
             'username' => 'TommyShelby',
         ]);
+        
         Comment::factory(10)->create([
             'user_id' => $user->id,
         ]);

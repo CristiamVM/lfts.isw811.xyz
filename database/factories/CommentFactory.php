@@ -15,6 +15,7 @@ class CommentFactory extends Factory
      */
     public function definition()
     {
+        
         return [
             'user_id' => User::factory(),
             'post_id' => Post::factory(),
