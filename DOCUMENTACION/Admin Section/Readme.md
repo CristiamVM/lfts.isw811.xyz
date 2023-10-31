@@ -106,6 +106,19 @@
 
 
 
-## 68.
+## 68. Group and Store Validation Logic
+    Ahora limpiamos un poco el Controlador de AdminPost para evitar duplicacion de codigo
 
-## 69.
+![Visual Studio Code](./images/admin-controller%2068.PNG "Modificacion del controlador administrativo de los post")
+
+
+
+## 69. All About Authorization
+    En este capitulo se soluciona un pequeño bug que hacia que todos los usuarios pudieran ver las opciones de admnistrador, no tenian acceso, pero las veian
+
+
+![Visual Studio Code](./images/web%2069.PNG "Modificacion del archivo de rutas")
+
+![Visual Studio Code](./images/layout%2069.PNG "Modificacion de la vista de layout")
+
+![Visual Studio Code](./images/ServiceProvider%2069.PNG "Modificacion del archivo ServiceProvider")

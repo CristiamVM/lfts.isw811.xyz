@@ -22,10 +22,9 @@ class AdminPostController extends Controller
 
     public function store()
     {
-        $attributes = request()->validate([
             $post = new Post();
             $attributes = $this->validatePost($post);
-        ]);
+
 
         $attributes['user_id'] = auth()->id();
         $attributes['thumbnail'] = request()->file('thumbnail')->store('public/thumbnails');
@@ -73,7 +72,7 @@ class AdminPostController extends Controller
             'thumbnail' => $post->exists ? ['image'] : ['required', 'image'],
             'excerpt' => 'required',
             'body' => 'required',
-            'category_id' => ['required', Rule::exists('categories', 'id')],
+            'category_id' => ['required', Rule::exists('categories', 'id')]
         ]);
     }
 }
