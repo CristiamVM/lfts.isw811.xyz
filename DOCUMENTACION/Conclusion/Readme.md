@@ -1,2 +1,3 @@
-# LFTS - 
+# LFTS - Conclusion
 
+## 70.
