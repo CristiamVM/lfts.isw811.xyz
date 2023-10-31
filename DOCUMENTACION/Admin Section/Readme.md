@@ -48,6 +48,19 @@
 
 
 ## 65. Extract Form-Specific Blade Components
+    Reorganizamos la vista para hacerla mas modular, por decirlo de alguna manera
+
+![Visual Studio Code](./images/error%2065.PNG "Creacion del archivo blade para los mensaje de error")
+
+![Visual Studio Code](./images/input%2065.PNG "Creacion del archivo blade para los input")
+
+![Visual Studio Code](./images/label%2065.PNG "Creacion del archivo blade para los label")
+
+![Visual Studio Code](./images/section%2065.PNG "Creacion del archivo blade para los secciones")
+
+![Visual Studio Code](./images/textarea%2065.PNG "Creacion del archivo blade para las textareas")
+
+![Visual Studio Code](./images/create%2065.PNG "Modificacion de la vista para crear post aplicando lo que acabamos de crear")
 
 ## 66.
 
