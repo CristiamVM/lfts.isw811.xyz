@@ -24,13 +24,20 @@
 
 ![Visual Studio Code](./images/web%2059.PNG "Modificacion del archivo de rutas")
 
-![Visual Studio Code](./images/layout%2059.PNG "Modificacion ee la vista de la estructura principal")  
-
-
-
+![Visual Studio Code](./images/layout%2059.PNG "Modificacion de la vista de la estructura principal")  
 
 
 
 ## 60. Extract a Newsletter Service
+
+![Visual Studio Code](./images/news-controller%2060.PNG "Creacion del controlador para el newsletter")  
+
+![Visual Studio Code](./images/news-service%20%2060.PNG "Creacion del controlador de servicios para el newsletter")  
+
+![Visual Studio Code](./images/env%2060.PNG "Modificacion de el archivo de ambiente(.env)")  
+
+![Visual Studio Code](./images/services%2060.PNG "Modificacion de el archivo de servicesl")  
+
+![Visual Studio Code](./images/web%2060.PNG "Modificacion del archivo de rutas")  
 
 ## 61.
