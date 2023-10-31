@@ -81,7 +81,30 @@
 
 ![Visual Studio Code](./images/create-register%2066.PNG "Modificacion de la vista para crear usuarios aplicando lo que acabamos de crear")
 
-## 67.
+## 67.Create a Form to Edit and Delete Posts
+    Ahora vamos a completar el CRUD creando las funciones y vistas para editar y eliminar posts
+
+![Visual Studio Code](./images/input%2067.PNG "Modificacion de la vista de los inputs")
+
+![Visual Studio Code](./images/web%2067.PNG "Modificacion del archivo de rutas")   
+
+![Visual Studio Code](./images/edit%2067.PNG "Creacion de la vista para editar posts")
+
+![Visual Studio Code](./images/index%2067.PNG "Creacion de la vista donde estan todos los post y asi poder administrarlos")
+
+![Visual Studio Code](./images/layout%2067.PNG "Modificacion de la vista de layout")
+
+![Visual Studio Code](./images/setting%2067.PNG "Modificacion de los setting para el dropdownmenu")
+
+![Visual Studio Code](./images/textarea%2067.PNG "Modificacion de la vista de los textarea")
+
+![Visual Studio Code](./images/category-button%2067.PNG "Modificacion de la vista del botton de categorias")
+
+![Visual Studio Code](./images/post-controller%2067.PNG "Modificacion del controlador de post")
+
+![Visual Studio Code](./images/admin-controller%2067.PNG "Creacion del controlador administrativo de los post")
+
+
 
 ## 68.
 
