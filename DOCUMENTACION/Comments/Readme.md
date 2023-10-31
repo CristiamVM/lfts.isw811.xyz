@@ -82,4 +82,4 @@ php artisan make:model -cfm
 
 ![Visual Studio Code](./images/add-comment%2057.PNG "Creacion de vista aparte para crear un commentario(form))")
 
-![Visual Studio Code](./images/show%2057.PNG "Modificacion del la vista de los post para modficar la forma en la que se añaden los comentarios")
+![Visual Studio Code](./images/show%2057.PNG "Modificacion de la vista de los post para modficar la forma en la que se añaden los comentarios")
