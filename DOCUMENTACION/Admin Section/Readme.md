@@ -24,9 +24,30 @@
 
 ![Visual Studio Code](./images/post-controller%2063.PNG "Modificacion del controlador de post")
 
-## 64.
 
-## 65.
+
+## 64. Validate and Store Post Thumbnails
+    En este episodio hacemos todos los pasos necesarios para que ahora los post puedan incluir una miniatura personalizada
+
+![Visual Studio Code](./images/show%2064.PNG "Modificacion de la vista show")
+
+![Visual Studio Code](./images/create%2064.PNG "Modificacion de la vista create")
+
+![Visual Studio Code](./images/post-card%2064.PNG "Modificacion de la vista post-card")
+
+![Visual Studio Code](./images/filesystem%2064.PNG "Modificacion archivo de configuracion filesystems")
+
+![Visual Studio Code](./images/create-posts%2064.PNG "Modificacion archivo de create_post_table")
+
+![Visual Studio Code](./images/post-factory%2064.PNG "Modificacion del factory de posts")
+
+![Visual Studio Code](./images/post-featured%2064.PNG "Modificacion de la vista de post-featured")
+
+![Visual Studio Code](./images/post-controller%2064.PNG "Modificacion del controlador de post")
+
+
+
+## 65. Extract Form-Specific Blade Components
 
 ## 66.
 
@@ -35,7 +56,3 @@
 ## 68.
 
 ## 69.
-
-
-
-![Visual Studio Code](./images/layout%2058.PNG "Modificacion de la vista de los comentarios")
