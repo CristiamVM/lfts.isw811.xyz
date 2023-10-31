@@ -29,6 +29,7 @@
 
 
 ## 60. Extract a Newsletter Service
+    En este episodio limpiamos codigo para que sea mas limpio y facil de entender
 
 ![Visual Studio Code](./images/news-controller%2060.PNG "Creacion del controlador para el newsletter")  
 
@@ -40,4 +41,14 @@
 
 ![Visual Studio Code](./images/web%2060.PNG "Modificacion del archivo de rutas")  
 
-## 61.
+
+
+## 61. Toy Chests and Contracts
+    
+![Visual Studio Code](./images/mailchimpnews%2061.PNG "Creacion del controlador del servicio de mailchimp") 
+
+![Visual Studio Code](./images/news-service%20%2061.PNG "Modificacion del controlador de servicio del newsletter")  
+
+![Visual Studio Code](./images/news-controller%2061.PNG "Modificacion del controlador de news")  
+
+![Visual Studio Code](./images/servicesprovider%2061.PNG "Modificacion del archivo de ServiceProvider")  

@@ -1,0 +1,6 @@
+Tuve un pequeño error medio raro, y la verdad no se que fue lo que hice, basicamente se creo otro repositorio(con todo y commit anteriores con sus respectivas fechas)
+intente arreglarlo, pero tuve un poco de miedo de hacer el problema mas grande entonces segui trabajando en el repositorio nuevo, y tampoco vi tanto problema ya que tiene todos los commits
+
+OLD---> https://github.com/CristiamVM/lfts-isw811
+
+NEW---> https://github.com/CristiamVM/lfts.isw811.xyz
