@@ -62,7 +62,24 @@
 
 ![Visual Studio Code](./images/create%2065.PNG "Modificacion de la vista para crear post aplicando lo que acabamos de crear")
 
-## 66.
+
+
+## 66. Extend the Admin Layout
+    Ahora vamos a modificar varias cosas para que la interfaz sea mas util y amigable con el cliente o administrador
+
+![Visual Studio Code](./images/input%2066.PNG "Modificacion de la vista de los inputs")
+
+![Visual Studio Code](./images/layout%2066.PNG "Modificacion de la vista de layout")
+
+![Visual Studio Code](./images/setting%2066.PNG "Creacion de los setting para el dropdownmenu")
+
+![Visual Studio Code](./images/dropdown%2066.PNG "Modificacion de la vista de los dropdown")
+
+![Visual Studio Code](./images/textarea%2066.PNG "Modificacion de la vista de los textarea")
+
+![Visual Studio Code](./images/create-posts%2066.PNG "Modificacion de la vista para crear post aplicando lo que acabamos de crear")
+
+![Visual Studio Code](./images/create-register%2066.PNG "Modificacion de la vista para crear usuarios aplicando lo que acabamos de crear")
 
 ## 67.
 
