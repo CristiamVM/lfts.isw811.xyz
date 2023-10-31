@@ -7,7 +7,7 @@
 
 ![Visual Studio Code](./images/create%2062.PNG "Creacion de la vista del administrador")
 
-![Visual Studio Code](./images/kernel%2062.PNG "Modificacion del arvhivo kernel")
+![Visual Studio Code](./images/kernel%2062.PNG "Modificacion del archivo kernel")
 
 ![Visual Studio Code](./images/mustadmin%2062.PNG "Creacion del middlewared de admnistrador")
 
@@ -15,7 +15,14 @@
 
 
 
-## 63.
+## 63. Create the Publish Post Form
+    Ahora vamos a crear una forma para que el administrador pueda crear post
+
+![Visual Studio Code](./images/web%2063.PNG "Modificacion del archivo de rutas")
+
+![Visual Studio Code](./images/create%2063.PNG "Modificacion de la vista del administrador para crear posts")
+
+![Visual Studio Code](./images/post-controller%2063.PNG "Modificacion del controlador de post")
 
 ## 64.
 
